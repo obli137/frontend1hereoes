@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+header {
+    width: 100%;
+}
+
+.descuento{
+    height: 30px;
+    background-color: #1CD1B0;
+    position: relative;
+}  
+
+.descuento p {
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 18px;
+    padding-left: 25px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.titulo {
+    height: 101px;
+    background-color: #00669F;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-weight: 400;
+    box-shadow: 0px 10px 12px -6px rgba(0,0,0,0.63);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 800px;
+}
+
+
+.heroe{
+    width: 300px;
+    height: 336px;
+    background-color: #F3F3F3;
+    margin-top: 25%;
+    margin-bottom: 10%;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 10px 12px -6px rgba(0,0,0,0.63);
+
+}
+
+.fondo-tarjeta {
+    width: 300px;
+    height: 193px;
+    position: absolute;
+    top: -193px;
+    left: 0px;
+}
+
+.perfil {
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    left: 25%;
+}
+
+.titulobatman {
+position: absolute;
+top: 20%;
+left: 32%;
+}
+
+.tituloharley {
+    position: absolute;
+    top:20%;
+    left: 26%;
+}
+
+
+.heroe p {
+    padding: 15px;
+    position: absolute;
+    bottom: 70px;
+    text-align: left;
+}
+
+.heroe button{
+    background-color: #00669F;
+    color: white;
+    font-size: 15px;
+    height: 49px;
+    width: 129px;
+    position: absolute;
+    bottom: 20px;
+    left: 25%;
+}
+
+
+footer{
+    position: relative;
+    background-color: #00669F;
+    color: white;
+    height: 51px;
+    font-weight: 400;
+}
+
+footer p {
+    margin-left: 25px;
+    position: absolute;
+    top: 3%;
+}
